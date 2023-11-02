@@ -1,0 +1,39 @@
+.single-note-tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 1rem;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+.tabs-area .single-note-tab:hover {
+  background-color: #f7ecdc;
+}
+.note-icon {
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+.note-name {
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.active {
+  background-color: #f7ecdc;
+}
+
+@media screen and (max-width: 960px) {
+  .single-note-tab {
+    border-radius: 40px;
+  }
+}

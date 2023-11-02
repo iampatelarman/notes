@@ -1,0 +1,7 @@
+.note {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
